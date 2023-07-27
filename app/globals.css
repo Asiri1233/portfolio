@@ -31,3 +31,15 @@
    background-color: #b7a266;
   }
 }
+
+/* tailwind.css (or your preferred CSS file) */
+@layer components {
+  .gradient-background {
+    @apply relative;
+  }
+
+  .gradient-background::before {
+    content: "";
+    @apply absolute top-0 left-0 w-full h-full pointer-events-none opacity-40 bg-gradient-to-b from-white via-gray-200 to-white;
+  }
+}

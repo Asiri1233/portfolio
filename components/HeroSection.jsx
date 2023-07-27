@@ -5,7 +5,7 @@ import DropDownButton from "./DropDownButton";
 
 const HeroSection = () => {
   return (
-    <div className="bg-[#0A0C10] flex md:flex-row flex-col  justify-between p-[3rem] items-center">
+    <div className="bg-[#0A0C10] flex md:flex-row flex-col  justify-between p-[3rem] items-center relative">
       <div>
         <h1 className="lg:text-[4rem] md:text-[3rem] text-[2rem] font-mono font-semibold   bg-gradient-to-r from-yellow-400 to-yellow-500 bg-clip-text text-transparent ">Pixel Developmenet</h1>
 
@@ -15,9 +15,11 @@ const HeroSection = () => {
             <CustomButton buttonText ={'Portfolio'}/>
         </div>
       </div>
-      <div className="p-2">
+      <div className="p-2 ">
         <img src="/full-hero@2x2.png" className="lg:w-[53.54rem] lg:h-[43.81rem] md:w-[50.54rem] md:h-[40.81rem] object-cover"/>
       </div>
+      <div className="hidden lg:block bg-[radial-gradient(ellipse_at_left,_var(--tw-gradient-stops))] from-gray-700 via-blue-900 to-black absolute top-0 right-0 w-[15rem] h-[10rem] rounded-full blur-3xl bg-cover" />
+      <div className=" animate-pulse hidden lg:block bg-[radial-gradient(ellipse_at_left,_var(--tw-gradient-stops))] from-gray-100 via-gray-900 to-[#0A0C10] absolute top-15 left-16 w-[10rem] h-[7rem] rounded-full blur-3xl bg-cover" />
     </div>
   );
 };
