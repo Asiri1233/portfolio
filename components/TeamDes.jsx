@@ -36,7 +36,7 @@ const TeamDes = () => {
                   alt={insight.title} // Add alt text for accessibility
                 />
                 <p className="text-lg font-semibold">{insight.title}</p>
-                <p className="text-sm text-gray-300">{insight.description}</p>
+                <p className="text-sm text-gray-300 text-center">{insight.description}</p>
               </div>
             ))}
           </div>
