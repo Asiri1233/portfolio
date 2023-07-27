@@ -26,13 +26,13 @@ const ourServices = [
   },
   {
     title: "Graphic Design",
-    imageSrc: "graphic-design.png",
+    imageSrc: "/graphic-design.png",
     description:
       "Creating visually striking graphics and illustrations that resonate with your audience.",
   },
   {
     title: "Discord & Telegram Bots Coding",
-    imageSrc: "telegram_bots.avif",
+    imageSrc: "/telegram_bots.avif",
     description:
       "Developing interactive bots to streamline and automate your community interactions.",
   },

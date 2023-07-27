@@ -10,12 +10,12 @@ const TeamDes = () => {
       {
         title: 'Artistic Design',
         description: 'Bringing Ideas to Life with Visually Stunning Concepts.',
-        image: '/graphic-design-ex.jpeg', // Add the image URL for the "Artistic Graphic Design" insight
+        image: '/graphic.gif', // Add the image URL for the "Artistic Graphic Design" insight
       },
       {
         title: 'Innovative Development',
         description: 'Building Future-Proof Solutions with Cutting-Edge Technologies.',
-        image: '/web-dev-ex.jpeg', // Add the image URL for the "Innovative Web Development" insight
+        image: '/developmenet.gif', // Add the image URL for the "Innovative Web Development" insight
       },
   ];
   // Function to shuffle the insights randomly
