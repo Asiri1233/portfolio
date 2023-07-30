@@ -76,7 +76,7 @@ const Skills = () => {
     <div className="w-[100%] mx-auto mt-8 flex flex-col bg-[#0A0C10] ">
       <Slider {...settings}>
         {skillsData.map((skill, index) => (
-          <div key={index} className="md:p-4 bg-[#0A0C10] rounded-lg shadow-lg flex flex-row">
+          <div key={index} className="p-4 bg-[#0A0C10] rounded-lg shadow-lg flex flex-row">
             <img src={skill.imageUrl} alt={skill.name} className="w-16 h-16 mx-auto mb-4 " />
             <div className='flex flex-col justify-center'>
             <p className="text-lg font-semibold text-center text-white">{skill.name}</p>

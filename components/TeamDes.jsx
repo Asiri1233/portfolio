@@ -1,22 +1,23 @@
-import React from 'react';
+import React from "react";
 
 const TeamDes = () => {
   const insights = [
     {
-        title: 'Intuitive Design',
-        description: 'Crafting User-Centric Interfaces for Seamless Experiences.',
-        image: '/web-design-ex.png', // Add the image URL for the "Intuitive Web Design" insight
-      },
-      {
-        title: 'Artistic Design',
-        description: 'Bringing Ideas to Life with Visually Stunning Concepts.',
-        image: '/graphic.gif', // Add the image URL for the "Artistic Graphic Design" insight
-      },
-      {
-        title: 'Innovative Development',
-        description: 'Building Future-Proof Solutions with Cutting-Edge Technologies.',
-        image: '/developmenet.gif', // Add the image URL for the "Innovative Web Development" insight
-      },
+      title: "Intuitive Design",
+      description: "Crafting User-Centric Interfaces for Seamless Experiences.",
+      image: "/web-design-ex.png", // Add the image URL for the "Intuitive Web Design" insight
+    },
+    {
+      title: "Artistic Graphics Design",
+      description: "Bringing Ideas to Life with Visually Stunning Concepts.",
+      image: "/graphic.gif", // Add the image URL for the "Artistic Graphic Design" insight
+    },
+    {
+      title: "Innovative Development",
+      description:
+        "Building Future-Proof Solutions with Cutting-Edge Technologies.",
+      image: "/developmenet.gif", // Add the image URL for the "Innovative Web Development" insight
+    },
   ];
   // Function to shuffle the insights randomly
 
@@ -36,7 +37,9 @@ const TeamDes = () => {
                   alt={insight.title} // Add alt text for accessibility
                 />
                 <p className="text-lg font-semibold">{insight.title}</p>
-                <p className="text-sm text-gray-300 text-center">{insight.description}</p>
+                <p className="text-sm text-gray-300 text-center">
+                  {insight.description}
+                </p>
               </div>
             ))}
           </div>
