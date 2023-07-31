@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
 import Link from "next/link";
@@ -23,8 +23,10 @@ const NavBar = () => {
       <div className="bg-[#0A0C10] flex flex-row justify-between items-center h-[96px] border-b-[1px] border-solid border-gray-custom  [backdrop-filter:blur(25px)]">
         <div className="md:ml-[150px]">
           <Link href="/" className="flex items-center gap-3">
-          <img src="/Logo3.png" alt="Logo" />
-          <p className="hidden lg:block text-2xl font-semibold whitespace-nowrap text-white font-cinzel">Pixel Developmenet</p>
+            <img src="/Logo3.png" alt="Logo" />
+            <p className="hidden lg:block text-2xl font-semibold whitespace-nowrap text-white font-cinzel hover:text-yellow-500">
+              Pixel Developmenet
+            </p>
           </Link>
         </div>
         {/* Desktop Nav */}
