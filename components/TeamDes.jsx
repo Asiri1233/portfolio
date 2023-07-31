@@ -3,7 +3,7 @@ import React from "react";
 const TeamDes = () => {
   const insights = [
     {
-      title: "Intuitive Design",
+      title: "Intuitive UI/UX Design",
       description: "Crafting User-Centric Interfaces for Seamless Experiences.",
       image: "/web-design-ex.png", // Add the image URL for the "Intuitive Web Design" insight
     },
