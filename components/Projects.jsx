@@ -17,6 +17,11 @@ const Projects = () => {
           projectDescription={"Place where you can find top-quality vendors"}
         />
         <ProjectCards
+          projectImage={"/findtrend.png"}
+          projectName={"Find trend"}
+          projectDescription={"Responsive design for the portfolio"}
+        />
+        <ProjectCards
           projectImage={"/project2.png"}
           projectName={"Waymo Gaming Website"}
           projectDescription={"You can find various categories of games here"}
