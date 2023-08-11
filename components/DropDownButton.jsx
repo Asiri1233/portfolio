@@ -1,10 +1,10 @@
-"use client"
+"use client";
 import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
 
 const options = [
-  { label: "Telegram", link: "https://telegram.org" },
-  { label: "Discord", link: "https://discord.com" },
+  { label: "Telegram", link: "https://t.me/WRestocker" },
+  { label: "Discord", link: "https://discord.gg/PgHEEbB2x" },
 ];
 
 const DropDownButton = () => {
@@ -52,7 +52,12 @@ const DropDownButton = () => {
         leaveTo="opacity-0 scale-95"
         className="origin-top-right absolute mt-2 w-[10.63rem] rounded-md shadow-lg border-yellow-700 ring-1 ring-black ring-opacity-5"
       >
-        <div className="py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
+        <div
+          className="py-1"
+          role="menu"
+          aria-orientation="vertical"
+          aria-labelledby="options-menu"
+        >
           {options.map((option) => (
             <a
               key={option.label}
